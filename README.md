@@ -18,6 +18,7 @@ This repository contains code and documentation for analyzing and forecasting gr
 ## Model Details
 - PyCaret was used for model selection and forecasting.
 - The ETS model emerged as the best performer, achieving high accuracy.
+- ETS model predicts net zero emission by 2050
 - Compared ETS model with Linear Regression model
 - For detailed model performance, refer to the project report.
 
