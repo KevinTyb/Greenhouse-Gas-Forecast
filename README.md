@@ -1,23 +1,12 @@
-Greenhouse Gas Emission Forecasting
-This project forecasts UK greenhouse gas (GHG) emissions over the next 5 years and assesses progress towards climate change goals using a time series model on public atmospheric emissions data.
+# UK Greenhouse Gas Emissions Analysis and Forecasting
 
-Data
-Dataset: UK ONS Atmospheric Emissions (1990-2021)
-Granularity: GHG emissions amounts broken down annually by industry category
-Focus Area: Total annual GHG emissions across all industries
-Notebooks
-Data Exploration & Visualization: Cleans data, explores trends in emissions over time, compares performance across industries
-Modeling & Forecasting: Fits a timeseries model on historical data, evaluates accuracy, and generates 5 year projections
-Methodology
-Data Import & Cleaning
-Exploratory Data Analysis
-Time Series Model Fitting
-Model Evaluation
-Forecasting
-Recommendations & Analysis
-Key Findings
-Total GHG emission decreased at a slow linear rate from 1990-2021
-Construction, Trade, and Real Estate industries increased emissions despite overall reduction
-Forecast shows continued gradual emissions decline but not at pace needed to hit net zero 2050 targets
-Recommendations
-More aggressive policy measures required for UK to achieve legislated climate change goals based on current trajectory.
+## Overview
+
+This repository contains code and documentation for analyzing and forecasting greenhouse gas (GHG) emissions in the UK. The project aims to assess the UK's progress towards its net-zero emissions target by 2050. The analysis covers data from the ONS atmospheric emissions dataset, providing insights into historical trends and predicting future emissions.
+
+## Project Structure
+
+- **data:** Contains the raw data file, typically named `atmospheric_emissions_ghg.xlsx`.
+- **notebooks:** Jupyter notebooks containing data cleaning, exploratory data analysis, and model building.
+- **images:** Images and visualizations generated during the analysis.
+- **scripts:** Python scripts for data cleaning, model training, and other functionalities.
