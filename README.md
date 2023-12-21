@@ -6,7 +6,7 @@ This repository contains code and documentation for analyzing and forecasting gr
 
 ## Project Structure
 
-- **data:** Contains the raw data file, typically named `atmospheric_emissions_ghg.xlsx`.
+- **data:** Contains the raw data file, typically named `atmoshpericemissionsghg.xlsx`.
 - **notebooks:** Jupyter notebooks containing data cleaning, exploratory data analysis, and model building.
 - **images:** Images and visualizations generated during the analysis.
 - **scripts:** Python scripts for data cleaning, model training, and other functionalities.
